@@ -1,3 +1,3 @@
-(define (id x) x)
-
-(id 42)
+(program ()
+    (define (id x) x)
+    (id 42))

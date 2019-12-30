@@ -1,5 +1,6 @@
+(program ()
 (- (((lambda (f)
                (lambda (n) (if (eq? n 0) 0 (+ n ((f f) (- n 1))))))
            (lambda (f)
 	             (lambda (n) (if (eq? n 0) 0 (+ n ((f f) (- n 1)))))))
-         9) 3)
+         9) 3))

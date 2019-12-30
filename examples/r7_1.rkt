@@ -1,1 +1,2 @@
-((lambda (x) x) 42)
+(program ()
+((lambda (x) x) 42))

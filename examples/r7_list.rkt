@@ -1,3 +1,4 @@
+(program ()
 (define (cons e ls)
         (vector e ls))
 (define (empty)
@@ -6,4 +7,4 @@
         (vector-ref ls 0))
 (define (cdr ls)
         (vector-ref ls 1))
-(car (cdr (cons 3 (cons 42 (cons 1 (empty))))))
+(car (cdr (cons 3 (cons 42 (cons 1 (empty)))))))
