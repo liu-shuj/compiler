@@ -1,5 +1,9 @@
 #lang racket
 
+; code by Shujun Liu
+; function for each pass: 
+; typecheck shrink uniquify reveal-functions convert-to-clos limit-functions remove-complex-opera* expose-allocation explicate-control select-instructions uncover-live allocate-registers patch-instructions print-x86 
+
 ; type checker
 
 (define (flat-ty? ty)
